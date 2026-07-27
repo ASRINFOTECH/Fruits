@@ -1,7 +1,7 @@
 name: Test Gemini API Key
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
   test-gemini:
